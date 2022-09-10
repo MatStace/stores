@@ -1,5 +1,6 @@
 Python code to scrape data or access the APIs from store finders for some UK store chains:
 
+* 🛒 [ALDI](https://www.aldi.co.uk/)
 * 🥐 [GAIL's Bakery](https://gailsbread.co.uk/)
 * 🍷 [Majestic Wine](https://www.majestic.co.uk/)
 * 🛒 [Marks & Spencer](https://www.marksandspencer.com/)
