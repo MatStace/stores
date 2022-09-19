@@ -15,8 +15,8 @@ features = []
 
 for store in stores:
     store_point = geojson.Point((float(store['coordinates']['longitude']), float(store['coordinates']['latitude'])))
-    features.append(geojson.Feature(geometry=store_point))
+    features.append(geojson.Feature(geometry=store_point, properties={"name": store['name']}))
 
 all_stores = geojson.FeatureCollection(features)
 with open('marksandspencer.json', 'w') as outfile:
-    geojson.dump(all_stores, outfile)
+    geojson.dump(all_stores, outfile, indent=2)
