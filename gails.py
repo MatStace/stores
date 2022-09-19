@@ -17,7 +17,12 @@ for store in stores:
     store_link = store.string
     if store_link != '':
         print(f'Processing store {store_link}')
-        r = requests.get(store_link)
+        try:
+            r = requests.get(store_link)
+        except Exception as e:
+            print(e)
+            continue
+
         if r.status_code != 200:
             continue
         soup = BeautifulSoup(r.text, 'html.parser')
@@ -26,10 +31,11 @@ for store in stores:
         lat = re.search('\"lat\":\"([0-9\-.]+)\"', map_js).group(1)
         long = re.search('\"lng\":\"([0-9\-.]+)\"', map_js).group(1)
 
+        store_name = soup.select('.wpsl-locations-details strong')[0].string
 
         store_point = geojson.Point((float(long), float(lat)))
-        features.append(geojson.Feature(geometry=store_point))
+        features.append(geojson.Feature(geometry=store_point, properties={"name": store_name}))
 
 all_stores = geojson.FeatureCollection(features)
 with open('gails.json', 'w') as outfile:
-    geojson.dump(all_stores, outfile)
+    geojson.dump(all_stores, outfile, indent=2)
