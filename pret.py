@@ -15,4 +15,4 @@ for store in stores:
 
 all_stores = geojson.FeatureCollection(features)
 with open('pret.json', 'w') as outfile:
-    geojson.dump(all_stores, outfile)
+    geojson.dump(all_stores, outfile, indent=2)
