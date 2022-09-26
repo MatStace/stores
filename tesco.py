@@ -54,7 +54,9 @@ for store_link in store_links:
 
     store_point = geojson.Point((float(longitude.get('content')), float(latitude.get('content'))))
 
-    features.append(geojson.Feature(geometry=store_point))
+    store_name = soup.select('.Core-title')[0].string
+
+    features.append(geojson.Feature(geometry=store_point, properties={"name": store_name}))
     bar.next()
 
 bar.finish()
