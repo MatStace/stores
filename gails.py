@@ -31,7 +31,7 @@ for store in stores:
         lat = re.search('\"lat\":\"([0-9\-.]+)\"', map_js).group(1)
         long = re.search('\"lng\":\"([0-9\-.]+)\"', map_js).group(1)
 
-        store_name = soup.select('.wpsl-locations-details strong')[0].string
+        store_name = soup.select('title')[0].string.replace("| GAIL's Bakery","").strip()
 
         store_point = geojson.Point((float(long), float(lat)))
         features.append(geojson.Feature(geometry=store_point, properties={"name": store_name}))
