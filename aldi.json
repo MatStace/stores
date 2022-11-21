@@ -201,6 +201,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.400675,
+          51.273838
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Kings Hill, Alexander Grove"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.119397,
           51.372357
         ]
@@ -544,7 +557,7 @@
         ]
       },
       "properties": {
-        "name": "ALDI, London, Greenwich High Road"
+        "name": "ALDI SHOP&GO, London, Greenwich High Road"
       }
     },
     {
@@ -890,6 +903,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.183786,
+          51.569709
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Romford, Rom Valley Retail Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.826869,
           51.263129
         ]
@@ -1007,6 +1033,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.030329,
+          51.612861
+        ]
+      },
+      "properties": {
+        "name": "ALDI, London, Unit 2 Cork Tree Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.752663,
           51.392135
         ]
@@ -1039,6 +1078,19 @@
       },
       "properties": {
         "name": "ALDI, Colindale, Unit 47C, Capitol Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.137976,
+          51.611526
+        ]
+      },
+      "properties": {
+        "name": "ALDI, London, 5 Station Road, London"
       }
     },
     {
@@ -1800,6 +1852,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.399089,
+          51.872194
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Luton, Gipsy Lane"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.203813,
           51.905566
         ]
@@ -1858,6 +1923,19 @@
       },
       "properties": {
         "name": "ALDI, Dunstable, Church Street"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.395796,
+          51.362188
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Broadstairs, Westwood Gateway Retail Park"
       }
     },
     {
@@ -2092,6 +2170,19 @@
       },
       "properties": {
         "name": "ALDI, Clacton-on-Sea, Pier Avenue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.661554,
+          50.761037
+        ]
+      },
+      "properties": {
+        "name": "ALDI, New Milton, Starling Road"
       }
     },
     {
@@ -3152,12 +3243,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.544883,
-          52.280515
+          -1.544955,
+          52.280534
         ]
       },
       "properties": {
-        "name": "ALDI, Leamington Spa, Queensway"
+        "name": "ALDI, Leamington Spa, Shires Retail Park"
       }
     },
     {
@@ -4894,6 +4985,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -3.02417,
+          51.692241
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Pontypool, Skewfields"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -2.050931,
           52.561246
         ]
@@ -5706,6 +5810,19 @@
       },
       "properties": {
         "name": "ALDI, Exeter, Exhibition Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.860327,
+          52.895916
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Uttoxeter, Old Knotty Way"
       }
     },
     {
@@ -6753,25 +6870,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.34504,
-          53.437414
-        ]
-      },
-      "properties": {
-        "name": "ALDI, Rotherham, 126 Fitzwilliam Road"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -0.063098,
           53.573887
         ]
       },
       "properties": {
-        "name": "ALDI, Grimsby, Cleethorpes Road"
+        "name": "ALDI, Grimsby, Cleethorpe Road"
       }
     },
     {
@@ -6902,6 +7006,19 @@
       },
       "properties": {
         "name": "ALDI, Chapel en le Frith, Foresters Way"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.121806,
+          53.266507
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Silk Road, Unit1 Barracks Mill Rp"
       }
     },
     {
@@ -10783,6 +10900,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.579694,
+          54.803151
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Durham, North Durham Retail Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.333258,
           54.838331
         ]
@@ -11394,12 +11524,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.012484,
-          55.781896
+          -2.017065,
+          55.784874
         ]
       },
       "properties": {
-        "name": "ALDI, Berwick-upon-Tweed, North Road"
+        "name": "ALDI, Berwick Upon Tweed, 6 Loaning Meadows Retail Park"
       }
     },
     {
@@ -11725,6 +11855,19 @@
       },
       "properties": {
         "name": "ALDI, Hamilton, Hamilton Palace Grounds Rp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.469321,
+          55.935223
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Broxburn, 43 Greendykes Road"
       }
     },
     {
@@ -12479,6 +12622,19 @@
       },
       "properties": {
         "name": "ALDI, Portlethen, Portlethen Retail Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.087355,
+          57.120239
+        ]
+      },
+      "properties": {
+        "name": "ALDI, Aberdeen, Altens Farm Road, Nigg"
       }
     },
     {
