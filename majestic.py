@@ -33,4 +33,4 @@ for region in regions:
 
 all_stores = geojson.FeatureCollection(features)
 with open('majestic.json', 'w') as outfile:
-    geojson.dump(all_stores, outfile)
+    geojson.dump(all_stores, outfile, indent=2)
